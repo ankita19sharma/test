@@ -178,11 +178,11 @@ void makeInputAliAnalysisTaskSEDplus(){
 
     //analysiscuts->ApplySPDMisalignedCutPP2012();
 
-    //cut->ApplySPDMisalignedCutPP2012();
-    /*  analysiscuts->SetUseStrongPid(3);
+    cut->ApplySPDMisalignedCutPP2012();
+    analysiscuts->SetUseStrongPid(3);
     analysiscuts->SetMaxPtStrongPid(8.);
     analysiscuts->SetMaxPStrongPidK(1.5);
-    analysiscuts->SetMaxPStrongPidpi(1.5);*/ 
+    analysiscuts->SetMaxPStrongPidpi(1.5); 
 
     //analysiscuts->SetUseEMCAL7TriggerPP2012(); 
 
